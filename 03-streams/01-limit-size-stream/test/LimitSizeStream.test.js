@@ -2,6 +2,7 @@ const LimitSizeStream = require('../LimitSizeStream');
 const LimitExceededError = require('../LimitExceededError');
 const expect = require('chai').expect;
 const sinon = require('sinon');
+const { describe } = require('mocha');
 
 describe('streams/limit-size-stream', () => {
   describe('LimitSizeStream', () => {
